@@ -1,18 +1,24 @@
+# Project README
 
-MongoDB path:
-authServiceDB_Group10
-communityServiceDB_Group10
+## MongoDB Path
 
+- **authServiceDB_Group10**
+- **communityServiceDB_Group10**
 
+## Commands I Used to Run Program
 
-Commands I used to run program:
+### Microservices
 
-Microservices
-auth-service/community-service : npm run dev
-../server/gateway.js: node .\gateway.js
+- **auth-service/community-service:**  
+  `npm run dev`
 
+- **../server/gateway.js:**  
+  `node .\gateway.js`
 
+### Microfrontends
 
-Microfrontends
-community-app/user-app: npm run deploy
-shell-app: npm run dev
+- **community-app/user-app:**  
+  `npm run deploy`
+
+- **shell-app:**  
+  `npm run dev`
