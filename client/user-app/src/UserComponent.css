@@ -1,0 +1,55 @@
+/* UserComponent.css */
+
+/* Full-screen container for the user component with dark background */
+.user-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+}
+
+/* Card-like box with dark background and blue accent shadow */
+.user-card {
+  width: 400px;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+/* Navigation container styling */
+.user-nav {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #444;
+}
+
+/* Active navigation tab */
+.user-nav-link-active {
+  background-color: #121212 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+/* Inactive navigation tab */
+.user-nav-link-inactive {
+  background-color: #1e1e1e !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+/* Form control styling for dark mode */
+.user-form-control {
+  background-color: #2a2a2a !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+/* Submit button with blue accent */
+.user-submit-btn {
+  width: 100%;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
